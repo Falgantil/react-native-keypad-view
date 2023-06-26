@@ -12,9 +12,8 @@ interface Props {
     length?: number;
     disabled?: boolean;
     onSubmit: (code: string) => Promise<boolean>;
-    canDelete?: boolean;
     style?: KeyPadScreenStyle;
     text: string;
 }
-declare const KeyPadScreen: ({ length, disabled, onSubmit, canDelete, style, text }: Props) => React.JSX.Element;
+declare const KeyPadScreen: ({ length, disabled, onSubmit, style, text }: Props) => React.JSX.Element;
 export default KeyPadScreen;

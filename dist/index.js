@@ -3,7 +3,7 @@ import { useCallback, useRef, useState } from 'react';
 import { Text, View, Animated } from 'react-native';
 import KeyPadContainer from './KeyPadContainer';
 import KeyPadInput from './KeyPadInput';
-const KeyPadScreen = ({ length = 4, disabled, onSubmit, canDelete, style, text }) => {
+const KeyPadScreen = ({ length = 4, disabled, onSubmit, style, text }) => {
     const [code, setCode] = useState('');
     const anim = useRef(new Animated.Value(0));
     const shake = useCallback(() => {

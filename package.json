@@ -1,6 +1,6 @@
 {
   "name": "react-native-keypad-view",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Numpad input view for authentication",
   "author": "Falgantil",
   "license": "MIT",
@@ -32,7 +32,7 @@
     "react-native": "*"
   },
   "dependencies": {
-    "expo-haptics": "~12.2.1",
-    "color": "^4.2.3"
+    "color": "^4.2.3",
+    "expo-haptics": "~12.2.1"
   }
 }

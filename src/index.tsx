@@ -16,11 +16,10 @@ interface Props {
   length?: number;
   disabled?: boolean;
   onSubmit: (code: string) => Promise<boolean>;
-  canDelete?: boolean;
   style?: KeyPadScreenStyle;
   text: string;
 }
-const KeyPadScreen = ({ length = 4, disabled, onSubmit, canDelete, style, text }: Props) => {
+const KeyPadScreen = ({ length = 4, disabled, onSubmit, style, text }: Props) => {
   const [code, setCode] = useState<string>('');
   const anim = useRef(new Animated.Value(0));
 
